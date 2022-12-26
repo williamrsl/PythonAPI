@@ -7,7 +7,7 @@ api = Api(app);
 
 class Users(Resource):
     def get(self):
-        return 'William Ricardo'
+        return 'William'
 
 api.add_resource(Users, '/users')
 
